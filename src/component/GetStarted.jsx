@@ -3,7 +3,7 @@ import packageIcon from '../assets/package.png';
 import rocketIcon from '../assets/rocket.png';
 const GetStarted = () => {
     return (
-        <div className="container bg-slate-50 h-190.5 mx-auto text-center flex flex-col items-center justify-center gap-6">
+        <div className="bg-slate-50 h-190.5 mx-auto text-center flex flex-col items-center justify-center gap-6">
             <h2 className="text-5xl font-bold">Get Started in 3 Steps</h2>
             <p className="text-lg text-[#627382] text-[16px]">Start using premium digital tools in minutes, not hours.</p>
             

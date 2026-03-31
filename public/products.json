@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Adobe Creative Cloud",
+    "description": "The industry standard for creative professionals.\nFull suite of design, video, and photography apps.",
+    "price": 54.99,
+    "period": "month",
+    "image": "https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_a3031b709de60547c040f5b398210ace/adobe-creative-cloud.png",
+    "status": "Best Seller",
+    "features": [
+      "Access to 20+ desktop and mobile apps",
+      "100GB of cloud storage",
+      "Adobe Fonts library access"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Notion AI",
+    "description": "Unified workspace for notes and collaboration.\nIntegrated AI tools to automate your writing workflow.",
+    "price": 10.00,
+    "period": "month",
+    "image": "https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/notion.png",
+    "status": "Popular",
+    "features": [
+      "Automated meeting summaries",
+      "Real-time team collaboration",
+      "Customizable database templates"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Midjourney",
+    "description": "State-of-the-art AI image generation.\nCreate high-fidelity visuals using simple text prompts.",
+    "price": 30.00,
+    "period": "month",
+    "image": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/midjourney-color-icon.png",
+    "status": "New",
+    "features": [
+      "High-resolution image upscaling",
+      "Advanced style tuning parameters",
+      "Private stealth generation mode"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Slack Pro",
+    "description": "Streamlined communication for modern teams.\nUnlimited message history and huddle capabilities.",
+    "price": 7.25,
+    "period": "month",
+    "image": "https://cdn.mos.cms.futurecdn.net/SDDw7CnuoUGax6x9mTo7dd-1920-80.jpg",
+    "status": "Best Seller",
+    "features": [
+      "Unlimited searchable message archives",
+      "Group video calls with screen sharing",
+      "External collaboration via Slack Connect"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Trello",
+    "description": "Visual project management simplified.\nOrganize tasks using boards, lists, and cards.",
+    "price": 10.00,
+    "period": "month",
+    "image": "https://cdn-icons-png.flaticon.com/512/6124/6124991.png",
+    "status": "Popular",
+    "features": [
+      "Drag-and-drop workflow management",
+      "No-code automation with Butler",
+      "Cross-platform synchronization"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Figma Professional",
+    "description": "Collaborative interface design tool.\nBuild interactive prototypes and design systems in real-time.",
+    "price": 15.00,
+    "period": "month",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyIEyfClNU0SVPqlWPYBvqUG3JjBr-Orm3dw&s",
+    "status": "New",
+    "features": [
+      "Unlimited version history",
+      "Shared team libraries",
+      "Advanced prototyping interactions"
+    ]
+  }
+]
