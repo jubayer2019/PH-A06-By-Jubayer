@@ -38,7 +38,7 @@ const Pricing = () => {
                     </button>
                 </div>
 
-                <div className="relative flex flex-col p-8 rounded-2xl bg-gradient-to-br from-[#4F39F6] to-[#9514FA] text-white shadow-xl md:scale-105 z-10 hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 group">
+                <div className="relative flex flex-col p-8 rounded-2xl bg-linear-to-br from-[#4F39F6] to-[#9514FA] text-white shadow-xl md:scale-105 z-10 hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 group">
                     <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-yellow-900 px-4 py-1 rounded-full text-xs font-bold tracking-wide shadow-md uppercase">
                         Most Popular
                     </div>

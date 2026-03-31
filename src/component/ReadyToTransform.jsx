@@ -1,7 +1,7 @@
 const ReadyToTransform = () => {
   return (
     // Replaced fixed h-121.75 with min-h and py-20 for better mobile scaling
-    <div className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] min-h-[400px] md:min-h-[500px] w-full flex items-center px-4 py-20">
+    <div className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] min-h-100 md:min-h-125 w-full flex items-center px-4 py-20">
       
       {/* Fixed typo: changed mx-w-2xl to max-w-2xl */}
       <div className="text-center text-white max-w-3xl mx-auto space-y-8 flex flex-col items-center justify-center">

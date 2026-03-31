@@ -59,7 +59,7 @@ function App() {
         <input 
           type="radio" 
           name="my_tabs_1" 
-          className="tab flex-1 font-bold rounded-full checked:bg-gradient-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all" 
+          className="tab flex-1 font-bold rounded-full checked:bg-linear-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all" 
           aria-label="Products" 
           defaultChecked
           onClick={() => setActiveTab("digitaltools")}
@@ -68,7 +68,7 @@ function App() {
         <input 
           type="radio" 
           name="my_tabs_1" 
-          className="tab flex-1 font-bold rounded-full checked:bg-gradient-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all" 
+          className="tab flex-1 font-bold rounded-full checked:bg-linear-to-r from-[#4F39F6] to-[#9514FA] checked:text-white transition-all" 
           /* Updated aria-label to show inline count */
           aria-label={cart.length > 0 ? `Cart (${cart.length})` : "Cart"}
           onClick={() => setActiveTab("cart")}

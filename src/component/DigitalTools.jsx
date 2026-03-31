@@ -10,7 +10,7 @@ const DigitalTools = ({ digitalPromise, onBuy, cartItems }) => {
   const digitalProduct = use(digitalPromise);
 
   return (
-    <div className="bg-slate-50 py-12 px-4 min-h-[600px]">
+    <div className="bg-slate-50 py-12 px-4 min-h-150">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {digitalProduct.map((product, index) => {
@@ -46,7 +46,7 @@ const DigitalTools = ({ digitalPromise, onBuy, cartItems }) => {
                   onClick={() => onBuy(product)}
                   disabled={isAdded}
                   className={`w-full rounded-full py-2.5 font-bold text-sm mt-auto transition-all ${
-                    isAdded ? "bg-slate-100 text-slate-400 cursor-not-allowed" : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white hover:opacity-90"
+                    isAdded ? "bg-slate-100 text-slate-400 cursor-not-allowed" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white hover:opacity-90"
                   }`}
                 >
                   {isAdded ? (<span><i className="fa-solid fa-check mr-2"></i> Added to Cart</span>) : "Buy Now"}
