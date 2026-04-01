@@ -38,12 +38,11 @@ Designed with a "Mobile-First" approach, the layout adapts perfectly to any scre
 
 -----
 
-## 📸 Screenshots
+## 📱 Responsive Previews
 
-
------
-
-
+| Desktop View | Mobile View |
+| :--- | :--- |
+| <img src="digitools-premium.netlify.app_.png" width="500" /> | <img src="digitools-premium.netlify.app_(Samsung Galaxy S20 Ultra).png" width="200" /> |
 -----
 
 **Built with ❤️ by Jubayer Khan Akash**
