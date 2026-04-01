@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
         
         
-        <div className="space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start order-2 lg:order-1">
+        <div className="space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start">
           <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-indigo-100/50 w-fit">
             <div className="w-2 h-2 rounded-full bg-purple-600 ring-4 ring-purple-300/50"></div>
             <span className="text-sm font-medium text-purple-700">
@@ -38,7 +38,7 @@ const Banner = () => {
         </div>
 
         
-        <div className="relative flex justify-center lg:justify-end order-1 lg:order-2">
+        <div className="relative flex justify-center lg:justify-end">
           <div className="relative w-full max-w-125 lg:max-w-none">
             
             <div className="absolute -inset-4 bg-purple-200 rounded-full blur-3xl opacity-30 animate-pulse"></div>
